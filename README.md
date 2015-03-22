@@ -1,10 +1,10 @@
 # kitchen-foreman-cookbook
 
-TODO: Enter the cookbook description here.
+TODO: This cookbook provisions Foreman with kitchen.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+TODO: CentOS
 
 ## Attributes
 
@@ -16,7 +16,7 @@ TODO: List your supported platforms.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['kitchen-foreman']['bacon']</tt></td>
+    <td><tt>['kitchen-foreman']['default']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -39,4 +39,4 @@ Include `kitchen-foreman` in your node's `run_list`:
 
 ## License and Authors
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+Author:: Alex Naumchenko (<alex@devloft.com>)
