@@ -25,18 +25,6 @@ TODO: CentOS
 
 ## Usage
 
-### kitchen-foreman::default
-
-Include `kitchen-foreman` in your node's `run_list`:
-
-```json
-{
-  "run_list": [
-    "recipe[kitchen-foreman::default]"
-  ]
-}
-```
-
 ## License and Authors
 
 Author:: Alex Naumchenko (<alex@devloft.com>)
