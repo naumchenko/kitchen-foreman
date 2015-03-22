@@ -8,3 +8,4 @@
 #
 
 include_recipe "kitchen-foreman::foreman"
+include_recipe 'yum-epel'

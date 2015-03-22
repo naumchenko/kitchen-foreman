@@ -4,8 +4,8 @@
   end
 end
 
-git "#{Chef::Config[:file_cache_path]}/foreman" do
-  repository "https://github.com/theforeman/foreman.git"
-  reference "1.8-stable"
+git "#{node["kitchen-foreman"]["base_path"]}/foreman" do
+  repository "#{node["kitchen-foreman"]["repo"]}"
+  reference "#{node["kitchen-foreman"]["build"]}"
   action :sync
 end

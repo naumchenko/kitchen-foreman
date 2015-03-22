@@ -7,3 +7,5 @@ long_description 'Installs/Configures kitchen-foreman'
 version          '0.1.0'
 
 depends 'git'
+depends 'nginx'
+depends 'yum-epel', '~> 0.6.0'
